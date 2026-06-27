@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hayalya — Hesap ve Veri Silme</title>
+  <style>
+    :root { --ink:#2b2b3a; --muted:#5b5b6b; --accent:#6c4ed8; --bg:#faf8ff; --card:#fff; --border:#ece8f7; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      line-height:1.65; }
+    .wrap { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+    header { text-align:center; margin-bottom:28px; }
+    h1 { font-size:1.7rem; margin:.2em 0; }
+    .sub { color:var(--muted); font-size:.95rem; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:16px;
+      padding:22px 24px; margin:18px 0; box-shadow:0 1px 2px rgba(60,40,120,.04); }
+    h2 { font-size:1.18rem; margin:0 0 .5em; color:var(--accent); }
+    ol, ul { padding-left:22px; }
+    li { margin:.35em 0; }
+    .steps li { margin:.5em 0; }
+    .note { background:#f3effd; border-left:4px solid var(--accent); padding:12px 16px;
+      border-radius:8px; color:var(--muted); font-size:.95rem; }
+    a { color:var(--accent); }
+    .email { font-weight:600; }
+    footer { text-align:center; color:var(--muted); font-size:.85rem; margin-top:28px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Hayalya — Hesap ve Veri Silme</h1>
+      <p class="sub">Hesabınızı ve ilişkili tüm verilerinizi nasıl silebileceğinize dair bilgiler.</p>
+    </header>
+
+    <div class="card">
+      <h2>Uygulama içinden silme (önerilen)</h2>
+      <ol class="steps">
+        <li><strong>Hayalya</strong> uygulamasını açın ve hesabınızla giriş yapın.</li>
+        <li><strong>Ayarlar</strong> ekranına gidin.</li>
+        <li><strong>Hesap</strong> bölümünde <strong>“Hesabımı Sil”</strong> seçeneğine dokunun.</li>
+        <li>Çıkan uyarıyı okuyup <strong>“Evet, Sil”</strong> ile onaylayın.</li>
+      </ol>
+      <p class="note">Silme işlemi <strong>kalıcıdır ve geri alınamaz</strong>. Onayladığınızda hesabınız ve verileriniz sunucularımızdan kaldırılır.</p>
+    </div>
+
+    <div class="card">
+      <h2>E-posta ile talep</h2>
+      <p>Uygulamaya erişiminiz yoksa, kayıtlı e-posta adresinizden bize yazarak silme talebinde bulunabilirsiniz:</p>
+      <p><a class="email" href="mailto:ozkanosmanogluu@gmail.com?subject=Hesap%20Silme%20Talebi">ozkanosmanogluu@gmail.com</a></p>
+      <p>Talebinizi kimlik doğrulaması yaptıktan sonra en geç <strong>30 gün</strong> içinde işleme alırız.</p>
+    </div>
+
+    <div class="card">
+      <h2>Silinen veriler</h2>
+      <p>Hesap silindiğinde aşağıdaki tüm veriler kalıcı olarak kaldırılır:</p>
+      <ul>
+        <li>Hesap ve kimlik doğrulama bilgileri (e-posta)</li>
+        <li>Çocuk profilleri (takma ad, yaş ve girilen kişiselleştirme bilgileri)</li>
+        <li>Oluşturulan hikâyeler ve resimli kitap sayfaları</li>
+        <li>Seslendirme / ses kayıtları</li>
+        <li>Abonelik kayıtları ve satın alma geçmişi</li>
+        <li>Profil bilgileri</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Saklama süresi</h2>
+      <p>Verileriniz silme işlemiyle birlikte <strong>derhal</strong> kaldırılır. Yedekleme sistemlerinde kalmış olabilecek kopyalar kısa süre içinde otomatik olarak temizlenir. Yasal yükümlülükler dışında hiçbir veri saklanmaz.</p>
+    </div>
+
+    <div class="card">
+      <h2>Abonelikler hakkında not</h2>
+      <p>Aktif bir aboneliğiniz varsa, hesabınızı silmeden önce aboneliğinizi mağaza üzerinden iptal etmeniz gerekir; abonelikler Apple App Store ve Google Play tarafından yönetilir ve hesap silme işlemi mağaza aboneliğini otomatik iptal etmez.</p>
+    </div>
+
+    <footer>
+      <p>Hayalya · İletişim: <a href="mailto:ozkanosmanogluu@gmail.com">ozkanosmanogluu@gmail.com</a></p>
+      <p>Ayrıca bkz. <a href="privacy-policy.html">Gizlilik Politikası</a></p>
+    </footer>
+  </div>
+</body>
+</html>
